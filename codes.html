@@ -1,0 +1,133 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Enter Codes - My Coke Rewards</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #fff;
+    }
+
+    /* Top Red Bar */
+    .top-bar {
+      background-color: #c00;
+      color: white;
+      padding: 10px 20px;
+    }
+
+    .logo {
+      font-size: 24px;
+      font-weight: bold;
+      display: inline-block;
+    }
+
+    .logo span {
+      font-weight: normal;
+    }
+
+    .nav-tabs {
+      margin-top: 10px;
+    }
+
+    .nav-tabs a {
+      margin-right: 20px;
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    /* Code Entry Section */
+    .code-section {
+      max-width: 600px;
+      margin: 40px auto;
+      padding: 20px;
+      border: 2px solid #c00;
+      border-radius: 8px;
+      background-color: #f9f9f9;
+    }
+
+    .code-section h2 {
+      text-align: center;
+      color: #c00;
+      margin-bottom: 20px;
+    }
+
+    .form-group {
+      margin-bottom: 20px;
+    }
+
+    .form-group label {
+      display: block;
+      font-weight: bold;
+      margin-bottom: 5px;
+    }
+
+    .form-group input {
+      width: 100%;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+
+    .form-group input:focus {
+      border-color: #c00;
+      outline: none;
+    }
+
+    .submit-btn {
+      background-color: #c00;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      font-weight: bold;
+      cursor: pointer;
+      width: 100%;
+      border-radius: 4px;
+    }
+
+    .submit-btn:hover {
+      background-color: #a00;
+    }
+
+    .code-note {
+      font-size: 14px;
+      text-align: center;
+      margin-top: 15px;
+      color: #555;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="top-bar">
+    <div class="logo">mycoke <span>rewards</span></div>
+    <div class="nav-tabs">
+      <a href="index.html">Home</a>
+      <a href="codes.html">Enter Codes</a>
+      <a href="#">Spend Points</a>
+      <a href="#">Get Exclusives</a>
+    </div>
+  </div>
+
+  <div class="code-section">
+    <h2>Enter Your Coke Codes</h2>
+    <form>
+      <div class="form-group">
+        <label for="bottle-code">Bottle Cap Code</label>
+        <input type="text" id="bottle-code" placeholder="Enter bottle cap code">
+      </div>
+      <div class="form-group">
+        <label for="fridge-code">Fridge Pack Code</label>
+        <input type="text" id="fridge-code" placeholder="Enter fridge pack code">
+      </div>
+      <button type="submit" class="submit-btn" onclick="location.href='prizes.html'">Submit Codes</button>
+    </form>
+    <div class="code-note">
+      Codes are case-sensitive. Each valid code earns points toward rewards!
+    </div>
+  </div>
+
+</body>
+</html>
